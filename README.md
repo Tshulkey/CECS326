@@ -27,11 +27,11 @@ gcc project1_2.c -o project1_2 -lpthread
 
 make
 
-*part 1
+* part 1
 
 ./project1 (enter a number)
 
-*part 2
+* part 2
 
 ./project1_2 (enter a number)
 
