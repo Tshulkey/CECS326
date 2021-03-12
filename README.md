@@ -10,7 +10,7 @@ Learn how to sort and merge using threads.
 
 First open the folder the code is in.
 
-cd Projects
+cd Projects2
 
 gcc project2.c -o project2 -pthread
 
@@ -20,8 +20,6 @@ gcc project2.c -o project2 -pthread
 ## Or you can use the Makefile
 
 make
-
-* Part 1
 
 ./project2
 
