@@ -1,27 +1,37 @@
-# Project 2: Application for Threads Sorting
+# Project 4: CPU scheduler
 
-Learning how to use multithreads and passing them to different functions. 
-Learn how to sort and merge using threads.
+Learning about the cpu scheduler algorithms. Focusing on the three called fcfs, priority, and round robin.
+Fcfs runs the processes by the way they arrive.
+Priority will take the largest priority value first to run.
+Round robin will run the processes with a quantum time of 10. So if the burst time has more than 10 it will be put on wait and go to the next one until it loops back.
 
 ---
 
-## Compile Commands:
+## Compile Commands and use make file:
 
 
 First open the folder the code is in.
 
-cd Projects2
+cd Project4
 
-gcc project2.c -o project2 -pthread
+* FCFS
 
-./project2
+make fcfs
 
----
-## Or you can use the Makefile
+./fcfs schedule.txt
 
-make
+* Priority
 
-./project2
+make priority
+
+./priority schedule.txt
+
+
+* Round Robin
+
+make rr
+
+./rr schedule.txt
 
 
 ---
